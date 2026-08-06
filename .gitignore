@@ -1,0 +1,10 @@
+# Artefatti di build
+bin/
+*.o
+*.so
+*.a
+
+# clangd: compile_commands.json contiene path assoluti della macchina,
+# va rigenerato in locale con: bear -- ./build-all.sh
+compile_commands.json
+.cache/
